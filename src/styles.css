@@ -465,11 +465,11 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .mb-20 {
   margin-bottom: 5rem;
-}
-.mt-14 {
-  margin-top: 3.5rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -498,8 +498,14 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-24 {
+  height: 6rem;
+}
 .h-full {
   height: 100%;
+}
+.max-h-screen {
+  max-height: 100vh;
 }
 .w-screen {
   width: 100vw;
@@ -521,6 +527,9 @@ video {
 }
 .max-w-screen-sm {
   max-width: 640px;
+}
+.flex-1 {
+  flex: 1 1 0%;
 }
 .-rotate-\[67deg\] {
   --tw-rotate: -67deg;
@@ -551,6 +560,10 @@ video {
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .px-10 {
   padding-left: 2.5rem;
@@ -588,3 +601,10 @@ video {
   letter-spacing: 0.025em;
 }
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap");
+@media (min-width: 768px) {
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
