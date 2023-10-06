@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HOME | HIZA</title>
+    <meta name="description" content="HOME | HIZA" />
+    <meta name="author" content="HIZA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div
+      class="w-screen h-screen flex flex-col items-center justify-center font-sans"
+    >
+      <header class="w-full mb-20 mt-14 mx-auto max-w-lg">
+        <nav
+          class="w-full flex items-end justify-around h-full text-2xl font-normal"
+        >
+          <a
+            href="/index.html"
+            class="-rotate-[67deg] w-32 border-t-2 border-black"
+            >HOME</a
+          >
+          <a
+            href="/profile.html"
+            class="-rotate-[67deg] w-32 border-t-2 border-black"
+            >PROFILE</a
+          >
+          <a
+            href="/works.html"
+            class="-rotate-[67deg] w-32 border-t-2 border-black"
+            >WORKS</a
+          >
+        </nav>
+      </header>
+      <main class="w-full py-16 mx-auto max-w-screen-lg h-full px-10">
+        <section class="mb-20">
+          <div class="swiper w-full h-full">
+            <div class="swiper-wrapper w-full h-full">
+              <div class="swiper-slide w-full h-full">
+                <img src="images/slide_1.jpg" />
+              </div>
+              <div class="swiper-slide w-full h-full">
+                <img src="images/slide_2.jpg" />
+              </div>
+              <div class="swiper-slide w-full h-full">
+                <img src="images/slide_3.jpg" />
+              </div>
+              <div class="swiper-slide w-full h-full">
+                <img src="images/slide_4.jpg" />
+              </div>
+              <div class="swiper-slide w-full h-full">
+                <img src="images/slide_5.jpg" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="flex items-center justify-center flex-col">
+            <h1 class="text-6xl mb-4 font-medium tracking-wider">HIZA</h1>
+            <h2 class="text-xl font-medium tracking-wide">MANGA ARTIST</h2>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PROFILE | HIZA</title>
+    <meta name="description" content="PROFILE | HIZA" />
+    <meta name="author" content="HIZA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div
+      class="w-screen h-screen flex flex-col items-center justify-center font-sans"
+    >
+      <header class="w-full mb-20 mt-14 mx-auto max-w-lg">
+        <nav
+          class="w-full flex items-end justify-around h-full text-2xl font-normal"
+        >
+          <a
+            href="/index.html"
+            class="-rotate-[67deg] w-32 border-t-2 border-black"
+            >HOME</a
+          >
+          <a
+            href="/profile.html"
+            class="-rotate-[67deg] w-32 border-t-2 border-black"
+            >PROFILE</a
+          >
+          <a
+            href="/works.html"
+            class="-rotate-[67deg] w-32 border-t-2 border-black"
+            >WORKS</a
+          >
+        </nav>
+      </header>
+      <main class="w-full py-16 mx-auto max-w-screen-sm h-full px-10 text-lg">
+        <section class="mt-20">
+          <h1 class="text-6xl mb-6 font-medium">HIZA</h1>
+          <p class="mb-1 text-lg">漫画家、４コマ漫画を中心に活動。</p>
+          <p class="text-lg">漫画・イラスト制作受付中。</p>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>
