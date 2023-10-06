@@ -495,8 +495,8 @@ video {
 .flex {
   display: flex;
 }
-.h-screen {
-  height: 100vh;
+.h-\[100dvh\] {
+  height: 100dvh;
 }
 .h-24 {
   height: 6rem;
@@ -504,8 +504,8 @@ video {
 .h-full {
   height: 100%;
 }
-.max-h-screen {
-  max-height: 100vh;
+.max-h-\[100dvh\] {
+  max-height: 100dvh;
 }
 .w-screen {
   width: 100vw;
